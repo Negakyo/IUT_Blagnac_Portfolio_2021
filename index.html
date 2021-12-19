@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Thomas Cerqueira</title>
+    <link rel="shortcut icon" type="image/icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <!--------------------------------------- NAVBAR --------------------------------------->
+
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">Portfolio</a>
+        </div>
+        <ul class="nav-list">
+            <li class="list-item">
+                <a href="#presentation">Présentation</a>
+            </li>
+            <li class="list-item">
+                <a href="#competences">Compétences</a>
+            </li>
+            <li class="list-item">
+                <a href="#interets">Interets</a>
+            </li>
+            <li class="list-item">
+                <a href="#projet">Projet</a>
+            </li>
+            <li class="list-item">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div class="menu">
+            <ul class="menu-list">
+                <a href="#presentation"><img src="img/profil-de-lutilisateur.png"></a>
+                <a href="#competences"><img src="img/graphique-de-gateau.png"></a>
+                <a href="#interets"><img src="img/interet.png"></a>
+                <a href="#projet"><img src="img/projet.png"></a>
+                <a href="#contact"><img src="img/contact.png"></a>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <!--------------------------------------- PRESENTATION --------------------------------------->    
+    
+    
+    <div class="presentation" id="presentation">
+
+        <p class="texte"><font color="#69DAF0">print</font>(<font color="#F5CB5C">"Bonjour"</font>)<br> <br> <font size="5"><span class="span1">Je m'appelle <font color="#69DAF0">Thomas Cerqueira</font></span><br> <span class="span1">19ans, étudiant en Informatique </span></font></p>
+        <div class="ph_moitie" alt="montagne"></div>
+            <div class="ph_texte1">
+                <p>Dev</p>
+            </div>
+            <div class="ph_texte2">
+                <p>web</p>
+            </div>
+    </div>
+
+
+    <!--------------------------------------- COMPETENCES --------------------------------------->   
+       
+ 
+    <div class="competences" id="competences">
+        <h1>Mes compétences</h1>
+        <div class="bar">
+            <div class="bar-stat" id="html_comp">
+                <span class="bar-text">HTML - 75%</span>
+            </div>
+        </div>
+        <div class="bar">
+            <div class="bar-stat" id="css_comp">
+                <span class="bar-text">CSS - 60%</span>
+            </div>
+        </div>
+        <div class="bar">
+            <div class="bar-stat" id="js_comp">
+                <span class="bar-text">JS - 20%</span>
+            </div>
+        </div>
+        <div class="bar">
+            <div class="bar-stat" id="java_comp">
+                <span class="bar-text">Java - 35%</span>
+            </div>
+        </div>
+        <div class="bouton_cv">
+            <button class="button" ><a class="lien_cv" href="cv/CV Thomas Cerqueira.pdf">Télécharger mon CV</a></button>
+        </div>
+    </div>
+
+    <!--------------------------------------- INTERETS --------------------------------------->
+
+
+    <div class="interets" id="interets">
+        <h1>Mes interets</h1>
+        <div class="img_it">
+            <div class="moto_container">
+                <div class="img_moto" alt="moto"></div>
+                <p>Je suis passioné par la moto. Je pratique cette activitée durant mon temps libre. J'affectionne aussi les sports mécaniques comme la F1.</p>
+            </div>
+            <div class="mao_container">
+                <div class="img_mao" alt="musique assistée ordinateur"></div>
+                <p>Durant mon temps libre, je compose de la musique grâce a des logiciels tels que FlStudio. Composer m'as permis de développer ma créativité.</p>
+            </div>
+            <div class="jeux_container">
+                <div class="img_jeux" alt="jeux vidéos"></div>
+                <p>Je joue aussi aux jeux vidéos. Cela me permet de me détendre, améliorer mes réflexes, ma mémoire ou encore ma polyvalence.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------------- PROJET --------------------------------------->
+
+    <div class="projet" id="projet">
+        <h1>Projet professionnel</h1>
+        <div class="projet_container">
+            <div class="projet_texte">
+            <p>Après avoir effectué mon BUT Informatique, j'aimerais me diriger vers un master en cybersécurité. La sécurité des sites internet, des réseaux et des entreprises m'intéressent beaucoup. De nos jours, la sécurité est très importante. Je vois de plus en plus de fraudes et de crimes informatiques. Les attaques entre États se multiplient aussi. C'est pour cela que ce domaine m'intéresse car il faut protéger par exemple la France contre ces attaques.</p>
+            </div>
+            
+            <div class="projet_img">
+                <div class="projet_image" alt="cybersécurité"></div>
+            </div>
+        
+
+        </div>
+    </div>
+
+
+    <!--------------------------------------- FOOTER --------------------------------------->
+
+    <footer class="footer" id="contact">
+
+        <div class="footer_left">
+
+            <h3>Portfolio</h3>
+
+            <p class="footer_liens">
+                <a href="#presentation">Présentation -</a>
+                
+                <a href="#competences">Compétences -</a>
+                
+                <a href="#interets">Interets -</a>
+                
+                <a href="#projet">Projet -</a>
+
+                <a href="#contact">Contact</a>
+            </p>
+
+            <p class="footer_droits">Tous droits réservés © Thomas Cerqueira, 2021</p>
+
+
+        </div>
+
+        <div class="footer_center">
+
+            <p>Contact</p>
+
+            <div class="formulaire">
+
+                <input type="text" name="nom" id="nom" placeholder="Nom" class="nom">    
+                <input type="text" name="prenom" id="prenom" placeholder="Prénom" class="prenom">       
+                <input type="text" name="mail" id="mail" placeholder="Email" class="mail">       
+                <textarea name="message" id="message" class="message" placeholder="Message"></textarea>
+
+                <button onclick="sendMessage()">Envoyer</button>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <script src="app.js"></script>    
+</body>
+</html>
